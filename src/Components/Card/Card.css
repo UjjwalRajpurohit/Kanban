@@ -1,0 +1,64 @@
+.card-container {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 16px; /* Adds spacing between cards */
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-id {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+.profile-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-box {
+  width: 18px;
+  height: 18px;
+  background-color: #e0e0e0;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.feature-request {
+  font-size: 10px;
+  padding: 4px 8px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  color: #777;
+}
